@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title></title>
+    <title>Aula 02 - POO</title>
 </head>
 <body>
     <?php
