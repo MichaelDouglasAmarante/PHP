@@ -6,3 +6,5 @@
 - [Aula 03 - Configurando Visibilidade de Atributos e Métodos](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/ConfigurandoVisibilidadeDeAtributosEMetodos)
 - [Aula 04 - Métodos Getter,Setter e Construtor](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/metodosGetterSetterEConstrutor)
 - [Aula 05 - Exemplo *Conta de Banco*](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/ExemploPraticoPHP-Aula005)
+- [Aula 06 - Encapsulamento](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/Encapsulamento)
+- [Aula 07 - Objetos Compostos em PHP](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/ObjetosCompostosEmPHP)
