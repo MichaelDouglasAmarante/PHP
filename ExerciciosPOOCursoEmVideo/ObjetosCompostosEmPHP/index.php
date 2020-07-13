@@ -6,7 +6,7 @@
 </head>
 <body>
     <?php
-        require_once("Lutador.php");
+        require_once("Luta.php");
 
         $lutador = array();
 
@@ -14,21 +14,14 @@
         $lutador[1] = new Lutador("Silas","Brasil",21,1.73,65,15,3,0);
         $lutador[2] = new Lutador("Otávio","Brasil",18,1.74,75,13,2,3);
 
-        $lutador[0]->apresentar();
-        $lutador[0]->status();
-
-        $lutador[0]->perderLuta();
-        $lutador[1]->ganharLuta();
-
-        $lutador[1]->apresentar();
-        $lutador[1]->status();
-
-        $lutador[1]->empatarLuta();
-        $lutador[2]->empatarLuta();
-
-        $lutador[2]->apresentar();
-        $lutador[2]->status();
+       
+        $UEC01 = new Luta();
+        $UEC01->marcarLuta($lutador[0],$lutador[2]);
         
+        $UEC01->lutar();
+        
+        $lutador[0]->status();
+        $lutador[2]->status();
     ?>
 </body>
 </html>

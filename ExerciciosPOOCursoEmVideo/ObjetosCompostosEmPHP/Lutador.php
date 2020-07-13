@@ -21,7 +21,7 @@
             $this->setVitorias($this->getVitorias() + 1);
         }
         public function perderLuta(){
-            $this->setDerrotas($this->getDerrotas() - 1);
+            $this->setDerrotas($this->getDerrotas() + 1);
         }
         public function empatarLuta(){
             $this->setEmpates($this->getEmpates() + 1);
