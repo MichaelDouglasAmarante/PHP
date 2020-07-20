@@ -8,3 +8,6 @@
 - [Aula 05 - Exemplo *Conta de Banco*](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/ExemploPraticoPHP-Aula005)
 - [Aula 06 - Encapsulamento](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/Encapsulamento)
 - [Aula 07 - Objetos Compostos em PHP](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/ObjetosCompostosEmPHP)
+- [Aula 09 - Exercício Prático POO em PHP](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/ExercicioPraticoPOOemPHP)
+- [Aula 10 - Herança](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/Heranca)
+- [Aula 11 - Herança Parte 2](https://github.com/MichaelDouglasAmarante/PHP/tree/master/ExerciciosPOOCursoEmVideo/HerancaParteDois)
