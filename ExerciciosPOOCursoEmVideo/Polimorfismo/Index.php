@@ -11,6 +11,7 @@
         require_once 'Peixe.php';
         require_once 'Ave.php';
         require_once 'Canguru.php';
+        require_once 'Lobo.php';
         require_once 'Cachorro.php';
         require_once 'Tartaruga.php';
         require_once 'Cobra.php';
@@ -50,6 +51,13 @@
 
         $cachorro->emitirSom();
         $canguru->emitirSom();
+
+        echo "<hr>";
+
+        $cachorro->reagirDono(true);
+        $cachorro->reagirHora(13);
+        $cachorro->reagirFrase("Vai para fora!");
+        $cachorro->reagirIdadePeso(13,27);
     ?>
 </body>
 </html>
