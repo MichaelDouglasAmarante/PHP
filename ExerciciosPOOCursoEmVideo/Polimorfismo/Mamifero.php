@@ -1,5 +1,5 @@
 <?php
-    include_once 'Animal.php';
+    require_once 'Animal.php';
     class Mamifero extends Animal{
         private $corPelo;
 
