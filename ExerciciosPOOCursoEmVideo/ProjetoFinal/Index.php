@@ -8,6 +8,7 @@
     <?php
         require_once 'Video.php';
         require_once 'Usuario.php';
+        require_once 'Visualizacao.php';
 
         $video[0] = new Video("Aula 1 de POO");
         $video[1] = new Video("Aula 2 de POO");
@@ -16,8 +17,13 @@
         $usuario[0] = new Usuario("Michael",21,"Masculino","Mic");
         $usuario[1] = new Usuario("Suélen",22,"Feminino","Suka");
 
-        var_dump($video);
-        var_dump($usuario);
+        $visualizacao[0] = new Visualizacao($usuario[0],$video[2]);
+        $visualizacao[1] = new Visualizacao($usuario[0],$video[0]);
+
+        $visualizacao[0]->avaliar();
+        var_dump($visualizacao);
+        
+
     ?>
 </body>
 </html>
