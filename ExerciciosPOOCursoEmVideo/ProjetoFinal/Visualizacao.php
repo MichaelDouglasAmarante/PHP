@@ -9,6 +9,7 @@
             $this->filme->setAvaliacao(5);
         }
         public function avaliarNota($nota){
+            // $this->filme->setAvaliacao(($this->filme->getAvaliacao() + $nota)/$this->filme->getViews());
             $this->filme->setAvaliacao($nota);
         }
         public function avaliarPorcentagem($porcentagem){

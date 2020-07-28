@@ -17,10 +17,12 @@
         $usuario[0] = new Usuario("Michael",21,"Masculino","Mic");
         $usuario[1] = new Usuario("Suélen",22,"Feminino","Suka");
 
-        $visualizacao[0] = new Visualizacao($usuario[0],$video[2]);
+        $visualizacao[0] = new Visualizacao($usuario[1],$video[0]);
         $visualizacao[1] = new Visualizacao($usuario[0],$video[0]);
 
-        $visualizacao[0]->avaliar();
+        $visualizacao[1]->avaliarNota(9);
+        $visualizacao[1]->avaliarNota(2);
+        $visualizacao[1]->avaliarNota(3);
         var_dump($visualizacao);
         
 

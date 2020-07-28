@@ -16,7 +16,7 @@
         public function __construct($titulo){
             $this->setTitulo($titulo);
             $this->setAvaliacao(0);
-            $this->setViews(1);
+            $this->setViews(0);
             $this->setCurtidas(0);
             $this->setReproduzindo(false);
         }
@@ -30,7 +30,11 @@
             return $this->avaliacao;
         }
         public function setAvaliacao($avaliacao){
-            $this->avaliacao = $avaliacao;
+            if($this->getViews() > 1){
+                $this->avaliacao = ($this->getAvaliacao() + $avaliacao)/$this->getViews();
+           }else{
+                $this->avaliacao = $avaliacao;
+            }
         }
         public function getViews(){
             return $this->views;
